@@ -6,7 +6,7 @@
 const string = prompt("Inserisci una parola");
 
 // Invocazione della funzione
-const value = checkPalindrome(string);
+checkPalindrome(string);
 
 // Creare una funzione per capire se la parola inserita è palindroma
 function checkPalindrome(string) {
